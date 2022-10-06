@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string s1,s2,s3;
+    cin>>s1;
+    cin>>s2;
+  int s1l=s1.size();
+  int s2l=s2.size();
+  cout<<s1l<<" "<<s2l<<endl;
+  s3=s1+s2;
+  cout<<s3<<endl;
+  char a,b;
+  a=s1[0];
+  b=s2[0];
+  s1[0]=b;
+  s2[0]=a;
+  cout<<s1<<" "<<s2;
+    return 0;
+}
